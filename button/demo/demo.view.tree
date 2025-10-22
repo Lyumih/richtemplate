@@ -7,5 +7,4 @@ $company_template_button_demo $mol_example_small
 		\logo
 		\icon
 	aspects /
-		\Button
-		\ui
+		\UI\Button
