@@ -1,0 +1,5 @@
+$company_template_app $mol_book2_catalog
+	menu_title \Моя компания
+	spreads *
+		page1 <= Page1 $mol_page
+			title \Первая страница
