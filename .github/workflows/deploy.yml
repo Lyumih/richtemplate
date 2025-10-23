@@ -30,4 +30,8 @@ jobs:
               with:
                   folder: 'company/template/app/-' #FIXME path to build app
 
-## Тут отредачить, чтобы storybook Тоже создавался
+            - uses: hyoo-ru/gh-deploy@v4.4.1
+              if: github.ref == 'refs/heads/master'
+              with:
+                  folder: 'company/template/docs/-'
+                  target-folder: 'docs/' # Second sub-module
